@@ -39,10 +39,6 @@ def bubble_sort(array):
 
                 draw_bars(array, j, j+1, SWAP_COLOR)
 
-                time.sleep(0.1)
-            else:
-                time.sleep(0.05)
-
 
 def draw_bars(array, index1=None, index2=None, color=BAR_COLOR):
 
